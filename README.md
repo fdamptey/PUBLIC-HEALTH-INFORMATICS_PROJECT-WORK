@@ -1,60 +1,59 @@
 
-# 🧠 Breast Cancer Detection Using Deep Learning on Ultrasound Images
 
-## 📘 Project Title:
-**Exploring Deep Learning AI Ultrasound as a Primary Breast Cancer Screening Test: An Informatics Approach to Cancer Prevention**
+# Breast Cancer Detection Using Deep Learning on Ultrasound Images
 
-## 👨‍🔬 Authors:
+## Project Title:
+**Exploring Deep Learning AI Ultrasound as a Primary Breast Cancer Screening Test**
+
+## 👨‍🔬 By:
 **Frederick Damptey**  
 **Benjamin Odoom Asomaning**
 
----
 
-## 📄 Overview
+
+## Overview
 
 This project investigates the use of deep learning, specifically **transfer learning with convolutional neural networks (CNNs)**, to classify breast ultrasound images into **normal, benign, and malignant** categories. Using a carefully preprocessed public dataset and models like **EfficientNetB0**, we aim to provide a **low-cost, highly accurate screening tool** that can be deployed especially in **resource-limited settings**.
 
----
 
-## 🎯 Objectives
 
-- Develop and fine-tune deep learning models for breast cancer classification.
+## Objectives
+
+- Fine-tune deep learning models for breast cancer classification.
 - Evaluate model performance using clinically relevant metrics: **accuracy, AUC, sensitivity, and specificity**.
-- Compare AI model performance against radiologists and traditional screening methods.
-- Assess feasibility of using **AI-powered ultrasound** as a **primary screening tool**, especially in LMICs (low- and middle-income countries).
+- Compare AI model performance against mammography AI and human readers from study findings.
+- Evaluate feasibility of using **deep learning AI-powered ultrasound** as a **primary screening tool**, especially in LMICs (low- and middle-income countries).
 
----
 
-## 📚 Dataset
 
-- **Primary Source:** [Kaggle Breast Ultrasound Images Dataset (BUSI)](https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset/data)
-- **Secondary Source:** [Cancer Imaging Archive - Breast Lesions USG](https://www.cancerimagingarchive.net/collection/breast-lesions-usg/)
+## Dataset
 
-The dataset consists of **780 ultrasound images** divided into three classes:
+- **Source:** [Kaggle Breast Ultrasound Images Dataset (BUSI)](https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset/data)
+
+The dataset consists of **780 B-mode ultrasound images** divided into three classes:
 - `normal`
 - `benign`
 - `malignant`
 
 Ground truths were established through comparison with mammograms and confirmed by histopathology.
 
----
 
-## 🛠️ Methods
+## Methods
 
-### 🧪 Preprocessing
+### Preprocessing
 - Resizing images to `224x224`
 - RGB conversion for model compatibility
 - Image normalization and augmentation
 - K-Fold Cross-Validation (K=5)
 
-### 🧠 Models Used
+### Models Used
 All models were pretrained on ImageNet:
-- ✅ **EfficientNetB0** *(Best Performing Model)*
+- **EfficientNetB0** *(Best Performing Model)*
 - ResNet50
 - VGG16
 - InceptionV3
 
-### 🧮 Evaluation Metrics
+### Evaluation Metrics
 - **Accuracy**
 - **AUC (Area Under Curve)**
 - **Sensitivity**
@@ -72,25 +71,25 @@ All models were pretrained on ImageNet:
 | VGG16         | 0.933    | 0.982 | 0.909       | 0.951       |
 | ResNet50      | 0.92     | 0.964 | 0.881       | 0.945       |
 
----
+
 
 ## ✅ Conclusion
 
-The EfficientNetB0 deep learning model achieved **high accuracy (95%)**, **sensitivity (93%)**, **specificity (97%)**, and **AUC (0.99)**, outperforming several other AI models, radiologist benchmarks, and many mammography-based systems.  
+The EfficientNetB0 deep learning model achieved the **highest accuracy (95%)**, **sensitivity (93%)**, **specificity (97%)**, and **AUC (0.99)**, outperforming several other AI models, radiologist benchmarks, and many mammography-based systems. Ultrasound AI in general, showed comparable performance to mammography based system and surpassed human readers. 
 
 This positions **AI-enhanced ultrasound** as a **promising primary screening tool** for breast cancer, especially in regions where **mammography access is limited**.
 
----
 
-## ⚠️ Limitations
+
+## Limitations
 
 - Relatively small dataset size
 - Limited hardware for extensive experimentation
 - Time constraints affected the depth of literature review and retraining iterations
 
----
 
-## 🔭 Future Work
+
+## Future Work
 
 - Expand dataset diversity and size for better generalization
 - Implement explainable AI (XAI) components
@@ -98,9 +97,9 @@ This positions **AI-enhanced ultrasound** as a **promising primary screening too
 - Conduct meta-analytic performance benchmarking
 - Validate models in clinical settings
 
----
 
-## 💾 Installation
+
+## Installation
 
 Clone this repository:
 ```bash
@@ -130,9 +129,10 @@ python train_model.py
 
 ---
 
-## 📬 Contact
+## Contact
 
 For collaboration, questions, or access to supplementary materials, reach out via:
 
-📧 **Email:** [YourEmail@example.com]  
-🔗 **LinkedIn:** [Your LinkedIn Profile]
+**Email:** [fdamptey@mtu.edu]  
+🔗 **LinkedIn:** [https://www.linkedin.com/in/frederick-damptey-374542335/]
+
