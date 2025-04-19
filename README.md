@@ -3,7 +3,7 @@
 # Breast Cancer Detection Using Deep Learning on Ultrasound Images
 
 ## Project Title:
-**Exploring Deep Learning AI Ultrasound as a Primary Breast Cancer Screening Test**
+**Exploring Deep Learning AI Ultrasound as a Primary Breast Cancer Screening Tool**
 
 ## 👨‍🔬 By:
 **Frederick Damptey**  
@@ -48,7 +48,7 @@ Ground truths were established through comparison with mammograms and confirmed 
 
 ### Models Used
 All models were pretrained on ImageNet:
-- **EfficientNetB0** *(Best Performing Model)*
+- EfficientNetB0 **(Best Performing Model)**
 - ResNet50
 - VGG16
 - InceptionV3
@@ -59,6 +59,8 @@ All models were pretrained on ImageNet:
 - **Sensitivity**
 - **Specificity**
 - Confusion matrix and ROC curves
+
+I maintained all hyperparameters for consistency across all models.
 
 ---
 
