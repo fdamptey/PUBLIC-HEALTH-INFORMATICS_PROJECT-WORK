@@ -1,4 +1,4 @@
-##Exploring Deep Learning AI Ultrasound as a Primary Breast Cancer Screening Tool##
+##**Exploring Deep Learning AI Ultrasound as a Primary Breast Cancer Screening Tool**##
 
 ## 👨‍🔬 By:
 **Frederick Damptey**  
