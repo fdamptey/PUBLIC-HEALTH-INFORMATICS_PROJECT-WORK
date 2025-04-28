@@ -1,7 +1,3 @@
-
-
-# Breast Cancer Detection Using Deep Learning on Ultrasound Images
-
 ## Project Title:
 **Exploring Deep Learning AI Ultrasound as a Primary Breast Cancer Screening Tool**
 
